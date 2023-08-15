@@ -36,6 +36,7 @@ const form = reactive({
   firstName: '',
   lastName: '',
   address: '',
+  birthday: '',
 });
 const route = useRoute();
 
@@ -60,6 +61,7 @@ onMounted(async () => {
     form.firstName = students.value.find(student => student.id == route.params.id).firstName;
     form.lastName = students.value.find(student => student.id == route.params.id).lastName;
     form.address = students.value.find(student => student.id == route.params.id).address;
+    form.birthday = students.value.find(student => student.id == route.params.id).birthday;
     form.id = students.value.find(student => student.id == route.params.id).id;
   }
 });
