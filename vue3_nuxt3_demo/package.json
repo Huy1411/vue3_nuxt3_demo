@@ -6,7 +6,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "mock": "json-server --watch db.json --port 3001"
   },
   "devDependencies": {
     "@element-plus/nuxt": "^1.0.5",

@@ -32,6 +32,11 @@ pnpm run dev
 yarn dev
 ```
 
+``` server mock
+Start the development server on `http://localhost:3001`
+npm run mock
+```
+
 ## Production
 
 Build the application for production:
