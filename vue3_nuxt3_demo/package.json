@@ -13,6 +13,7 @@
     "@nuxt/devtools": "latest",
     "@types/node": "^18.17.3",
     "autoprefixer": "^10.4.15",
+    "dayjs-nuxt": "^1.1.2",
     "nuxt": "^3.6.5",
     "postcss": "^8.4.27",
     "tailwindcss": "^3.3.3"
@@ -22,6 +23,7 @@
     "@pinia/nuxt": "^0.4.11",
     "@vite-pwa/nuxt": "^0.1.0",
     "axios": "^1.4.0",
+    "dayjs": "^1.11.9",
     "element-plus": "^2.3.9",
     "pinia": "^2.1.6"
   }

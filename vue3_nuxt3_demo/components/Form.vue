@@ -14,6 +14,9 @@
         <el-form-item label="Address">
           <Input placeholder="Enter Address" v-model="form.address" type="textarea" />
         </el-form-item>
+        <el-form-item label="Birthday">
+          <DatePicker placeholder="Enter Birthday" v-model="form.birthday" type="date"/>
+        </el-form-item>
         <el-form-item>
           <el-button type="primary" @click="onSubmit">{{ props.isEdit ? 'Update' : 'Create' }}</el-button>
           <el-button @click="onCancel">Cancel</el-button>

@@ -1,10 +1,18 @@
 {
   "students": [
     {
+      "birthday": "1994-01-24",
       "firstName": "Dung",
       "lastName": "Nguyen",
       "address": "Ha Noi",
       "id": 1
+    },
+    {
+      "firstName": "Nguyen",
+      "lastName": "Huy",
+      "address": "Ha Noi",
+      "birthday": "1994-11-13T17:00:00.000Z",
+      "id": 2
     }
   ]
 }
